@@ -1,0 +1,159 @@
+[
+  {
+    "state": "idle",
+    "source": "C:\\工作\\hatch-pet-runs\\2.gif",
+    "frames": 6,
+    "sample_indices": [
+      0,
+      3,
+      5,
+      8,
+      11,
+      13
+    ],
+    "bbox": [
+      4,
+      6,
+      248,
+      298
+    ],
+    "scale": 0.678082191780822,
+    "dst": [
+      13,
+      5,
+      165,
+      198
+    ]
+  },
+  {
+    "state": "waiting",
+    "source": "C:\\工作\\hatch-pet-runs\\1.gif",
+    "frames": 6,
+    "sample_indices": [
+      0,
+      6,
+      12,
+      18,
+      23,
+      29
+    ],
+    "bbox": [
+      75,
+      30,
+      381,
+      325
+    ],
+    "scale": 0.5947712418300654,
+    "dst": [
+      5,
+      16,
+      182,
+      175
+    ]
+  },
+  {
+    "state": "jumping",
+    "source": "C:\\工作\\hatch-pet-runs\\4.gif",
+    "frames": 5,
+    "sample_indices": [
+      0,
+      6,
+      12,
+      18,
+      24
+    ],
+    "bbox": [
+      16,
+      11,
+      282,
+      370
+    ],
+    "scale": 0.5515320334261838,
+    "dst": [
+      22,
+      5,
+      147,
+      198
+    ]
+  },
+  {
+    "state": "failed",
+    "source": "C:\\工作\\hatch-pet-runs\\6.gif",
+    "frames": 8,
+    "sample_indices": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28
+    ],
+    "bbox": [
+      13,
+      4,
+      258,
+      295
+    ],
+    "scale": 0.6804123711340206,
+    "dst": [
+      12,
+      5,
+      167,
+      198
+    ]
+  },
+  {
+    "state": "review",
+    "source": "C:\\工作\\hatch-pet-runs\\3.gif",
+    "frames": 6,
+    "sample_indices": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "bbox": [
+      27,
+      3,
+      338,
+      302
+    ],
+    "scale": 0.5852090032154341,
+    "dst": [
+      5,
+      16,
+      182,
+      175
+    ]
+  },
+  {
+    "state": "running",
+    "source": "C:\\工作\\hatch-pet-runs\\5.gif",
+    "frames": 6,
+    "sample_indices": [
+      0,
+      6,
+      13,
+      19,
+      25,
+      32
+    ],
+    "bbox": [
+      2,
+      4,
+      246,
+      290
+    ],
+    "scale": 0.6923076923076923,
+    "dst": [
+      11,
+      5,
+      169,
+      198
+    ]
+  }
+]

@@ -1,49 +1,49 @@
-# Vishdale Codex Pet
+# 维什戴尔 Codex 宠物
 
-A custom Codex floating pet package for **维什戴尔**: a compact chibi demon mascot with gray hair, red-and-black horns, orange-yellow eyes, and a small demon tail.
+这是给 Codex 浮动宠物 overlay 使用的自定义宠物包。角色名为 **维什戴尔**，整体是灰发、红黑恶魔角、橙黄色眼睛和小恶魔尾巴的 Q 版小恶魔少女，主色为黑、灰、红，适合小尺寸显示。
 
-[中文说明](README.zh-CN.md)
+[English README](README.en.md)
 
-## Preview
+## 预览
 
 <p>
-  <img src="media/vishdale-idle.gif" width="144" alt="Vishdale idle animation" />
-  <img src="media/vishdale-waving.gif" width="144" alt="Vishdale waving animation" />
-  <img src="media/vishdale-jumping.gif" width="144" alt="Vishdale jumping animation" />
-  <img src="media/vishdale-review.gif" width="144" alt="Vishdale review animation" />
-  <img src="media/vishdale-running.gif" width="144" alt="Vishdale running animation" />
+  <img src="media/vishdale-idle.gif" width="144" alt="维什戴尔待机动画" />
+  <img src="media/vishdale-waving.gif" width="144" alt="维什戴尔挥手动画" />
+  <img src="media/vishdale-jumping.gif" width="144" alt="维什戴尔跳跃动画" />
+  <img src="media/vishdale-review.gif" width="144" alt="维什戴尔 review 动画" />
+  <img src="media/vishdale-running.gif" width="144" alt="维什戴尔跑动动画" />
 </p>
 
-![Vishdale animation contact sheet](media/contact-sheet.png)
+![维什戴尔动作总览](media/contact-sheet.png)
 
-## Install
+## 安装
 
-Copy the `vishdale` folder into:
+把 `vishdale` 文件夹复制到：
 
 ```text
 %USERPROFILE%\.codex\pets\vishdale
 ```
 
-Then restart Codex. If it does not switch automatically, open Settings -> Appearance -> Pets, refresh custom pets, and select **维什戴尔**.
+然后重启 Codex。如果没有自动切换，打开 Settings -> Appearance -> Pets，刷新自定义宠物列表，然后选择 **维什戴尔**。
 
-The custom avatar id is:
+自定义宠物 id 是：
 
 ```text
 custom:vishdale
 ```
 
-## Package Contents
+## 包内容
 
-- `vishdale/pet.json` - Codex pet manifest.
-- `vishdale/spritesheet.webp` - 1536x1872 animated pet atlas.
-- `media/*.gif` - lightweight README preview animations.
-- `media/contact-sheet.png` - visual overview of all animation states.
-- `qa/contact-sheet.png` - QA contact sheet.
-- `qa/validation.json` - atlas validation output.
-- `qa/review.json` - frame extraction and review output.
-- `source-assets-summary.json` - mapping from supplied source GIFs to pet states.
+- `vishdale/pet.json` - Codex 宠物配置文件。
+- `vishdale/spritesheet.webp` - 1536x1872 的宠物动作图集。
+- `media/*.gif` - README 中使用的轻量动图预览。
+- `media/contact-sheet.png` - 所有动作状态的图片总览。
+- `qa/contact-sheet.png` - QA 用动作总览图。
+- `qa/validation.json` - 图集校验结果。
+- `qa/review.json` - 帧提取与审查结果。
+- `source-assets-summary.json` - 源 GIF 与宠物动作状态的对应关系。
 
-## Source State Mapping
+## 动作来源
 
 - `idle`: `2.gif`
 - `waiting`: `1.gif`
@@ -51,8 +51,8 @@ custom:vishdale
 - `failed`: `6.gif`
 - `review`: `3.gif`
 - `running`: `5.gif`
-- `running-right`, `running-left`, and `waving` are retained from the earlier generated pet atlas because they fit Codex directional and waving states better than the supplied expression GIFs.
+- `running-right`、`running-left` 和 `waving` 沿用之前生成的宠物图集，因为它们更符合 Codex 对方向移动和挥手状态的需求。
 
-## Notes
+## 说明
 
-The atlas was validated for Codex's 8x9 pet layout: 8 columns, 9 animation rows, 192x208 pixels per cell. Unused cells remain transparent.
+图集已按 Codex 宠物格式校验：8 列、9 行、每格 192x208 像素，未使用的格子保持透明。

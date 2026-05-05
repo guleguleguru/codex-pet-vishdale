@@ -2,7 +2,7 @@
 
 这是给 Codex 浮动宠物 overlay 使用的自定义宠物包。角色名为 **维什戴尔**，整体是灰发、红黑恶魔角、橙黄色眼睛和小恶魔尾巴的 Q 版小恶魔少女，主色为黑、灰、红，适合小尺寸显示。
 
-[English README](README.md)
+[English README](README.en.md)
 
 ## 预览
 
